@@ -1,0 +1,158 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+.nav_bar{
+    padding: 0;
+}
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+    font-size: 18px;
+}
+  /*header end*/
+  /*slider start*/
+.slider {
+    padding-bottom: 75px;
+}
+.car_in {
+    bottom: -58px;
+}
+.car_in li {
+    width: 11px;
+    height: 11px;
+}
+.slider_content {
+    margin-top: 20px;
+    text-align: center;
+}
+.heading {
+    font-size: 25px;
+} 
+.h3 {
+    font-size: 18px;
+}
+.heading_text {
+    font-size: 15px;
+} 
+  /*slider end*/
+   /*features start*/
+/*.h3 {
+    font-size: 15px;
+}
+.features {
+    padding: 35px 0;
+}
+.mt_3 {
+    margin-top: 40px;
+}
+.cb {
+    padding: 0px 18px;
+}
+.single_heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.single_text {
+    font-size: 13px;
+}*/
+/*features end*/ 
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header start*/
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+    font-size: 20px;
+}
+   /*header end*/
+   /*slider start*/
+.car_in {
+    bottom: -74px;
+}
+.car_in li {
+    width: 13px;
+    height: 13px;
+}
+.slider_content {
+    margin-top: 35px;
+    text-align: center;
+}
+.h3 {
+    font-size: 21px;
+}   
+   /*slider end*/
+  /*features start*/
+/*.h3 {
+    font-size: 15px;
+}
+.features {
+    padding: 55px 0;
+}
+.mt_3 {
+    margin-top: 20px;
+}
+.cb {
+    padding: 6px 12px;
+}
+.single_content{
+    margin-top: 3px;
+}
+.single_heading {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.single_text {
+    font-size: 11px;
+}*/
+/*features end*/ 
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+    text-align: right;
+    padding-right: 0 !important;
+}
+.heading {
+    font-size: 27px;
+}
+.h3 {
+    font-size: 18px;
+}
+.heading_text {
+    font-size: 15px;
+}
+/*header end*/
+/*features start*/
+/*.h3 {
+    font-size: 15px;
+}
+.features {
+    padding: 55px 0;
+}
+.mt_3 {
+    margin-top: 40px;
+}
+.cb {
+    padding: 0px 18px;
+}
+.single_heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.single_text {
+    font-size: 13px;
+}*/
+/*features end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
